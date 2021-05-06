@@ -21,7 +21,7 @@ const styles = {
   margin: "auto",
   overflow: "hidden",
   height: "100%",
-  fontFamily: "Staatliches";
+  fontFamily: "Staatliches",
 };
 
 export default GlobalContainer;
