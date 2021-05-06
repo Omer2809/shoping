@@ -1,0 +1,91 @@
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.primarySpan {
+  font-family: "Staatliches", cursive;
+  /* color: #1a83ff; */
+  color:#d00;
+}
+
+/* Utility */
+/* .container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+  height: 100%;
+} */
+
+.showcase-content{
+  z-index: 30;
+}
+
+.gym-name{
+  font-size: 50px;
+  font-weight: 500;
+  z-index: 35;
+  text-transform: uppercase;
+  margin: 5px;
+  transform: translateX(-1800px);
+  animation: gymName 0.1s forwards ease-in 1s;
+}
+
+.hy{
+  font-weight: 500;
+  font-size: 50px;
+  margin-bottom: 0rem;
+  
+}
+
+.quote {
+  font-family: "Staatliches", cursive;
+  font-size: 25px;
+  font-weight: 200;
+  letter-spacing: 0.2px;
+  margin-bottom: 5px;
+  margin-top: 0.3rem;
+  z-index: 35;
+  transform: translateX(-1800px);
+  animation: gymQuot 0.2s forwards ease-in 1s;
+}
+
+.below {
+  font-size: 22px;
+  font-weight: 300;
+  z-index: 35;
+  margin-bottom: 20px;
+}
+
+
+.logo{
+
+  transform: translateY(-1200px);
+  animation: logo 0.5s forwards ease-in;
+}
+
+/* Keyframes */
+@keyframes logo {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes gymName{
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes gymQuot{
+  to {
+    transform: translateX(0);
+  }
+}

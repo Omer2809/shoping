@@ -1,0 +1,84 @@
+.modal-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 750px;
+  height: 540px;
+  background: #999;
+  border-radius: 6px;
+  position: absolute;
+  /* top: 50%; */
+  left: 50%;
+
+  box-shadow: 0px 1px 7px 1px #aaa;
+  overflow: hidden; 
+  transition: all 3s ease
+}
+
+.modal-headerr {
+  color: #060b26;
+  font-weight: 500;
+  padding: 0.7rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: #888 solid 2px;
+}
+
+
+
+.modal-content {
+  opacity:0.9;
+  padding: 0.5rem 0.5rem 0rem;
+   width: 60%;
+}
+
+
+
+.title{
+  color:#060b26;
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  font-weight: 200;
+  margin: 15px;
+}
+
+  .modal-wrapper .left{
+    width: 40%;
+    /* background: linear-gradient(to right,#01a9ac,#01dbdf); */
+    background: url('../images/unsplash3.jpg') no-repeat center center/cover;
+   
+  }
+.imgaage{
+  transition: transform 80ms ease-in;
+  transition: all 0.6s ease-in;
+  
+}
+
+.imaage:hover{
+  transform:scale(1.5);
+}
+
+.back-drop {
+  background: #060b26;
+  opacity:0.5;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index:80;
+  transition: all 1.3s;
+  width: 100%;
+}
+
+
+
+
+
+
+ 
+
+
+  
+  
+ 
