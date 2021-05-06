@@ -12,7 +12,6 @@ class HistoryTable extends Component {
       path: "products.length",
       label: "Total Items",
     },
-    { path: "totalPrice" },
     {
       label: "Total Quantity",
       key: "quantity",
